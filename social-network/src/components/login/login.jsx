@@ -74,10 +74,10 @@ const Login = (props) => {
 	);
 };
 
-const mapDespatchToProps = (state) => ({
+const mapStateToProps = (state) => ({
 	auth: state.auth,
 	withCapcha: state.auth.withCapcha,
 	capchaUrl: state.auth.capchaUrl
 });
 
-export default connect(mapDespatchToProps, {loginMe})(Login);
+export default connect(mapStateToProps, {loginMe})(Login);
