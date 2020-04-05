@@ -1,0 +1,42 @@
+.blok_posts {
+
+}
+
+.form {
+    padding: 5px 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.field {
+    height: 100px;
+    width: 100%;
+    background: #D6D6D6FF;
+    margin: 0 auto;
+    font: 20px monospace;
+    color: #161616FF;
+    overflow: auto;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+}
+
+.field:focus{
+    outline: none;
+}
+
+.button {
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: lightblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:active {
+    background: red;
+}
+

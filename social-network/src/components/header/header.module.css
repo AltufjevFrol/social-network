@@ -1,0 +1,31 @@
+.st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #4680C2;
+}
+
+.st1 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+}
+
+.logo {
+    width: 50px;
+}
+
+.header {
+    grid-area: header;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: black 1px 1px 3px;
+}
+
+.loginBlok {
+    margin: 10px;
+}

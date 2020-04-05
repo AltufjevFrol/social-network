@@ -1,0 +1,35 @@
+.blockPost {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    padding: 20px;
+    margin: 20px;
+    background: azure;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 5px;
+}
+
+.post {
+    margin: 10px 20px;
+}
+
+.like {
+    cursor: pointer;
+    width: auto;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heart {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heart span {
+    font-weight: bold;
+}

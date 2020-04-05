@@ -1,0 +1,7 @@
+.error{
+    background: red;
+}
+.errorMessage{
+    color: red;
+    font-weight: bold;
+}

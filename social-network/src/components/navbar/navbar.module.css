@@ -1,0 +1,22 @@
+.nav{
+	grid-area: nav;
+	background: blue;
+}
+
+.nav a:active{
+	color: gold;
+}
+
+.nav li{
+	list-style: none;
+	color: white;
+}
+
+.ref{
+	color: white;
+	text-decoration: none;
+}
+
+.active {
+	color: red;
+}

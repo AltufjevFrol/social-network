@@ -1,0 +1,30 @@
+.userInfo div{
+    margin: 5px;
+}
+
+.userInfo {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "avatar description";
+}
+
+.avatar {
+    grid-area: avatar;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+
+.description {
+    grid-area: description;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}

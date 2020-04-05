@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.containerButton {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerUsers {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: auto;
+}
+
+.userWrap {
+    margin: 10px;
+    display: flex;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.status{
+    width: 90%;
+}
+
+.links {
+    align-self: center;
+    margin: 10px;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.curentMarker {
+    font-weight: bold;
+}
+
+.loadingBanner {
+    margin: auto;
+    align-self: center;
+}
+
+.arrows {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.countUsers {
+    align-self: center;
+    margin: 10px;
+}
+
+.selectCountUsers {
+    margin: 5px;
+}
